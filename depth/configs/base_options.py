@@ -42,7 +42,7 @@ class BaseOptions():
                             choices=['garg_crop', 'eigen_crop'])
 
         parser.add_argument('--pretrained',    type=str, default='')
-        parser.add_argument('--drop_path_rate',     type=float, default=0.3)
+        # parser.add_argument('--drop_path_rate',     type=float, default=0.3)
         parser.add_argument('--use_checkpoint',   type=str2bool, default='False')
         parser.add_argument('--num_deconv',     type=int, default=3)
         parser.add_argument('--num_filters', nargs='+', type=int)
